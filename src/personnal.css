@@ -1,0 +1,103 @@
+	#playingGround{
+		width: 70%;
+		height: 100%;
+		z-index: 1;
+		position: absolute;
+	}
+	#playingGround img{
+		position: absolute !important;
+	}
+	.ui-draggable-dragging{
+		z-index:40 !important;
+		padding-left: 20%;
+	}
+	#leftMenu{
+		width: 15%;
+		height: 100%;
+		display: block;
+		float: left;
+		left: 0;
+		z-index: 2;
+		position: absolute;
+		border-style: solid;
+	}
+	#list{
+		width: 100%;
+		height: 100%;
+		overflow-y: auto !important; 
+		padding: 0;
+	}
+	#list > .container{
+		width: 100%;
+		height: 50px;
+		padding: 2%;
+		vertical-align: middle;
+		margin: 0;
+		cursor: move;
+		float: left;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		border-bottom: black 2px solid;
+	}
+	.container > div{
+		width: 80%;
+		margin-right: 5%;
+		display: inline;
+		vertical-align: middle;
+	}
+	.container > img{
+		display: inline;
+		width: 10%;
+		margin: 0;
+		padding: 0;
+		vertical-align: middle;
+	}
+	.help{
+	    border : 1px solid #1877D5;
+	    background : #84BEFD;
+	    opacity : 0.3;
+	}
+	#rightMenu{
+		display: inline-block;
+		height: 100%;
+		width: 15%;
+		height: 100%;
+		display:block;
+		position: absolute;
+		right: 0;
+		z-index: 2;
+		border-style: solid;
+	}
+	.selectedItem{
+		background-color: yellow;
+	}
+	.selectedImage{
+		z-index: 1000 !important;
+	}
+	#list2 > .container:hover{
+		cursor: pointer;
+	}
+	.container-fluid{
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		padding-left : 15%; 
+		position: absolute;
+	}
+	#sizeInfo{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: 999999;
+		opacity: 70%;
+	}
+	body{
+		background-image: url(image/background.png);
+		font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	}
+
+	#navbar{
+		border-style: solid;
+	}
